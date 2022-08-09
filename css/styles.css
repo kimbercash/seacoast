@@ -241,9 +241,6 @@ float: right;
   background-image: none;
   color: #fff;
 }
-.myCarousel {
-  padding:0em 4em;
-}
 
 
 .item h4 {
@@ -391,17 +388,9 @@ h4.readmore {
 .container {
   background-color:transparent !important;
 }
-.navbar li a, .navbar .navbar-brand {
-  color: #fff !important;
-}
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  color: #fff !important;
-  background-color: transparent !important;
-}
-.navbar-default .navbar-toggle {
-  border-color: transparent;
-  color: #fff !important;
-}
+
+
+
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
@@ -459,7 +448,7 @@ footer .glyphicon {
   }
 }
 
-/*Responsive Nav*/
+/*Media Queries*/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -467,6 +456,15 @@ footer .glyphicon {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  .jellyfish {
+    margin:0.5em 1.5em;
+  }
+  .seakelp {
+    margin:0.5em 1em;
+  }
+  .item h4 {
+    margin: 2.5em 4em;
   }
 }
 
@@ -478,6 +476,14 @@ footer .glyphicon {
     right: 0;
     top: 0;
   }
+
+  .topnav {
+    padding-left:0.5em;
+    padding-right:0.5em;
+  }
+
+ 
+
   .topnav.responsive a {
     float: none;
     display: block;
